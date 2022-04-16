@@ -1,0 +1,7 @@
+#surefire_0
+#Sat Apr 16 11:23:35 ICT 2022
+surefire.suiteXmlFiles=api.xml
+user.dir=C\:\\Users\\user\\Desktop\\march2022
+env=stage
+localRepository=C\:\\Users\\user\\.m2\\repository
+basedir=C\:\\Users\\user\\Desktop\\march2022

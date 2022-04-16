@@ -1,0 +1,1 @@
+{"uuid":"69dd0ce6-63a8-4da1-b060-e6324278c551","name":"qaautomation.march2022.BaseWebYopmailTest.cleanUp","description":"","start":1649438580467,"stop":1649438583447,"children":["97bb1e08-d001-46ce-bb39-d9aefe679ec1"],"afters":[{"name":"cleanUp","status":"passed","stage":"finished","description":"","start":1649438580468,"stop":1649438583447}]}

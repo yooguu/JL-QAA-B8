@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16968" started-at="2022-04-10T11:16:16 ICT" finished-at="2022-04-10T11:16:33 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16968" started-at="2022-04-10T11:16:16 ICT" finished-at="2022-04-10T11:16:33 ICT">
+      <class name="qaautomation.march2022.DashboardAPI">
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="login" is-config="true" duration-ms="7081" started-at="2022-04-10T11:16:16 ICT" finished-at="2022-04-10T11:16:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="FakerTest()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="FakerTest" duration-ms="422" started-at="2022-04-10T11:16:23 ICT" finished-at="2022-04-10T11:16:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FakerTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="login" is-config="true" duration-ms="1632" started-at="2022-04-10T11:16:23 ICT" finished-at="2022-04-10T11:16:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDashboardAPI()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="testDashboardAPI" duration-ms="2062" started-at="2022-04-10T11:16:25 ICT" finished-at="2022-04-10T11:16:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardAPI -->
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="login" is-config="true" duration-ms="1519" started-at="2022-04-10T11:16:27 ICT" finished-at="2022-04-10T11:16:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="testDashboardWithoutParam()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="testDashboardWithoutParam" duration-ms="1353" started-at="2022-04-10T11:16:29 ICT" finished-at="2022-04-10T11:16:30 ICT">
+          <exception class="io.restassured.module.jsv.JsonSchemaValidationException">
+            <message>
+              <![CDATA[com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:107)
+at qaautomation.march2022.DashboardAPI.testDashboardWithoutParam(DashboardAPI.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+at com.github.fge.jackson.JsonNodeReader$JsonParseExceptionBuilder.build(JsonNodeReader.java:198)
+at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:150)
+at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
+at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
+at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
+at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:105)
+at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:102)
+at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.module.jsv.JsonSchemaValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardWithoutParam -->
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="login" is-config="true" duration-ms="1544" started-at="2022-04-10T11:16:30 ICT" finished-at="2022-04-10T11:16:31 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="testDashboardWithoutToken()[pri:0, instance:qaautomation.march2022.DashboardAPI@39655d3e]" name="testDashboardWithoutToken" duration-ms="1074" started-at="2022-04-10T11:16:31 ICT" finished-at="2022-04-10T11:16:33 ICT">
+          <exception class="io.restassured.module.jsv.JsonSchemaValidationException">
+            <message>
+              <![CDATA[com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:107)
+at qaautomation.march2022.DashboardAPI.testDashboardWithoutToken(DashboardAPI.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
+ at [Source: (StringReader); line: 1, column: 1]
+at com.github.fge.jackson.JsonNodeReader$JsonParseExceptionBuilder.build(JsonNodeReader.java:198)
+at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:150)
+at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
+at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
+at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
+at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:105)
+at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:102)
+at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.module.jsv.JsonSchemaValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardWithoutToken -->
+      </class> <!-- qaautomation.march2022.DashboardAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
