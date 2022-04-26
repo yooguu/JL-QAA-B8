@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse--190113049\testng-customsuite.xml</span>
+                    <span>C:\Users\user\AppData\Local\Temp\testng-eclipse-926791378\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaautomation.march2022.DashboardAPI" hash-for-method="testDashboardWithoutParam">testDashboardWithoutParam</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaautomation.march2022.DashboardAPI" hash-for-method="testDashboardWithoutToken">testDashboardWithoutToken</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -131,6 +112,16 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaautomation.march2022.DashboardAPI" hash-for-method="testDashboardAPI">testDashboardAPI</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaautomation.march2022.DashboardAPI" hash-for-method="testDashboardWithoutParam">testDashboardWithoutParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="qaautomation.march2022.DashboardAPI" hash-for-method="testDashboardWithoutToken">testDashboardWithoutToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
@@ -143,120 +134,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">qaautomation.march2022.DashboardAPI</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDashboardWithoutParam">
-                  </a> <!-- testDashboardWithoutParam -->
-                  <span class="method-name">testDashboardWithoutParam</span>
-                  <div class="stack-trace">io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
- at [Source: (StringReader); line: 1, column: 1]
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:107)
-	at qaautomation.march2022.DashboardAPI.testDashboardWithoutParam(DashboardAPI.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
- at [Source: (StringReader); line: 1, column: 1]
-	at com.github.fge.jackson.JsonNodeReader$JsonParseExceptionBuilder.build(JsonNodeReader.java:198)
-	at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:150)
-	at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
-	at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
-	at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
-	at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:105)
-	at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:102)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
-	... 30 more
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDashboardWithoutToken">
-                  </a> <!-- testDashboardWithoutToken -->
-                  <span class="method-name">testDashboardWithoutToken</span>
-                  <div class="stack-trace">io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
- at [Source: (StringReader); line: 1, column: 1]
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:107)
-	at qaautomation.march2022.DashboardAPI.testDashboardWithoutToken(DashboardAPI.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read from input
- at [Source: (StringReader); line: 1, column: 1]
-	at com.github.fge.jackson.JsonNodeReader$JsonParseExceptionBuilder.build(JsonNodeReader.java:198)
-	at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:150)
-	at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
-	at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
-	at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
-	at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:105)
-	at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:102)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
-	... 30 more
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -277,12 +154,26 @@ Caused by: com.fasterxml.jackson.core.JsonParseException: no JSON Text to read f
                   <span class="method-name">testDashboardAPI</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardWithoutParam">
+                  </a> <!-- testDashboardWithoutParam -->
+                  <span class="method-name">testDashboardWithoutParam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardWithoutToken">
+                  </a> <!-- testDashboardWithoutToken -->
+                  <span class="method-name">testDashboardWithoutToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse--190113049\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\user\AppData\Local\Temp\testng-eclipse-926791378\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -335,24 +226,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDashboardAPI')
 data.setCell(0, 2, 'qaautomation.march2022.DashboardAPI')
-data.setCell(0, 3, 2062);
+data.setCell(0, 3, 2366);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testDashboardWithoutParam')
 data.setCell(1, 2, 'qaautomation.march2022.DashboardAPI')
-data.setCell(1, 3, 1353);
+data.setCell(1, 3, 1383);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testDashboardWithoutToken')
 data.setCell(2, 2, 'qaautomation.march2022.DashboardAPI')
-data.setCell(2, 3, 1074);
+data.setCell(2, 3, 1067);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'FakerTest')
 data.setCell(3, 2, 'qaautomation.march2022.DashboardAPI')
-data.setCell(3, 3, 422);
+data.setCell(3, 3, 399);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -385,35 +276,31 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FakerTest</span>
-                <span class="method-start">7234 ms</span>
+                <span class="method-start">8634 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">7687 ms</span>
+                <span class="method-start">9119 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDashboardAPI</span>
-                <span class="method-start">9320 ms</span>
+                <span class="method-start">10899 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">11382 ms</span>
+                <span class="method-start">13265 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testDashboardWithoutParam</span>
-                <span class="method-start">12903 ms</span>
+                <span class="method-start">14792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">14271 ms</span>
+                <span class="method-start">16195 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testDashboardWithoutToken</span>
-                <span class="method-start">15831 ms</span>
+                <span class="method-start">17775 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qaautomation.march2022.DashboardAPI">
+      <class name="qaautomation.march2022.APITestAfterRefactor">
         <methods>
-          <include name="testDashboardWithoutToken"/>
-          <include name="testDashboardWithoutParam"/>
           <include name="login"/>
+          <include name="testDashboardWithoutParam"/>
+          <include name="testDashboardAPI"/>
+          <include name="testDashboardWithoutToken"/>
         </methods>
-      </class> <!-- qaautomation.march2022.DashboardAPI -->
+      </class> <!-- qaautomation.march2022.APITestAfterRefactor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

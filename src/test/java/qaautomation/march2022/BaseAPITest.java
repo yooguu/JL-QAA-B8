@@ -18,8 +18,7 @@ public class BaseAPITest {
 
 	@BeforeMethod
 	public void login() {
-		// String loginPayload = "{\"email\": \"jogidemo321@gmail.com\", \"password\":
-		// \"builder123\"}";
+		// String loginPayload = "{\"email\": \"testlabs@gmail.com\", \"password\": \"builder123\"}";
 		String loginPayload = DataUtility.getDataFromExcel("Payloads", "LoginPayload");
 		Response responseLogin = given().spec(commonJsonSpec).body(loginPayload).when().post("/users/sign_in");
 		token = responseLogin.jsonPath().get("user.authtoken");
