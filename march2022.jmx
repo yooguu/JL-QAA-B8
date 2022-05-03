@@ -1053,9 +1053,7 @@ def jsonData = new JsonSlurper().parseText(prev.getResponseDataAsString())
 
 log.error(jsonData.page.toString())
 log.error(jsonData.data.toString())
-log.error(jsonData.data.email +&quot; &quot;+ jsonData.data.first_name)
-log.error(jsonData.data.first_name)
-</stringProp>
+log.error(jsonData.data.email +&quot;,&quot;+ jsonData.data.first_name +&quot;,&quot;+ jsonData.data.last_name +&quot;,&quot;+ jsonData.data.id.toString())</stringProp>
             <stringProp name="scriptLanguage">groovy</stringProp>
           </JSR223PostProcessor>
           <hashTree/>
