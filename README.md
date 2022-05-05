@@ -1,13 +1,11 @@
-# Foobar
+# Tugas QA JLabs
 
-Foobar is a Python library for dealing with word pluralization.
+## Tugas 1
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Membuat input suatu array minimal 3 Nama dengan menggunakan treemap dan treeseet.
 
 ```bash
-pip install foobar
+Tugas1.java
 ```
 
 ## Usage
