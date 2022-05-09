@@ -55,16 +55,24 @@ dan mendapatkan hasil "Hi, Invygo_Automation!The monthly payment for your Hyunda
 ```bash
 src/test/java/qaautomation/march2022
 
+LoginPageYopmailFactory.java
+
+src/main/java/qaautomation/march2022/pages/
+
 AppTestAfterPageYopmailFactory.java
 ```
 ## Tugas 5
 
-Membuat input suatu array minimal 3 Nama dengan menggunakan treemap dan treeseet.
+Create automation for register kolak project dengan menggunakan library faker
 
 ```bash
-Tugas1.java
+
 ```
 ## Tugas 6
+
+Buat github yang berisi tugas 1-5, yang jelas setiap tugas dijelaskan di readme.md dan berikan path setiap tugasnya.
+
+## Tugas 7
 
 Dengan menggunakan Jmeter, keluarkan log error untuk https://reqres.in/api/users/2
 
